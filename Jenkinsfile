@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling Java application'
-                bat 'javac App.java'
+                bat 'javac App.java AppTest.java'
             }
         }
 
@@ -27,7 +27,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 echo 'Running Java application'
-                bat 'java App'
+               bat 'java -cp . App'
             }
         }
     }
