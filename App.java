@@ -1,6 +1,9 @@
 
 public class App {
+
     public static void main(String[] args) {
-        System.out.println("Hello! Java application running through Jenkins.");
+
+        System.out.println("Java Application Running Successfully");
+
     }
 }
