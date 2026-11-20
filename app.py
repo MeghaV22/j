@@ -1,5 +1,5 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
-total = num11 + num4
+total = num1 + num4
 
 print(f"The sum is {total}")
